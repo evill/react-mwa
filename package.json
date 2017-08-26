@@ -1,0 +1,25 @@
+{
+  "name": "react-mwa",
+  "version": "0.0.1",
+  "description": "Integration of React with Modular Web Application for build react modules",
+  "main": "lib/index.js",
+  "scripts": {
+    "test1": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Tretyakov",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "pre-push": "^0.1.1"
+  }
+}
