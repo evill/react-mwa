@@ -4,13 +4,16 @@
   "description": "Integration of React with Modular Web Application for build react modules",
   "main": "lib/index.js",
   "scripts": {
-    "test1": "echo \"Error: no test specified\" && exit 1"
+    "test1": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd node_modules/mwa && npm install && npm run build"
   },
   "author": "Igor Tretyakov",
   "license": "MIT",
   "dependencies": {
+    "mwa": "git@github.com:evill/mwa.git",
     "prop-types": "^15.5.10",
-    "react": "^15.6.1"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
